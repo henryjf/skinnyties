@@ -1,1 +1,11 @@
 
+header{
+  background-color: #ff6229;
+
+}
+
+header a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: white;
+}
