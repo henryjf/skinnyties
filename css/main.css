@@ -1,11 +1,79 @@
+.container {
+  width: 1100px;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+}
 
 header{
+  width: 100%;
   background-color: #ff6229;
+  padding: 5px;
+  font-size: 12px;
+  /*position: absolute;*/
+}
 
+header button{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  padding: 4px;
+  background-color: #c23400;
+  color:white;
+  margin-left:90px;
 }
 
 header a {
-  margin-left: 50px;
+  margin-left: 10px;
   text-decoration: none;
   color: white;
+}
+
+.skinnyties {
+  padding: 0px 90px;
+}
+
+.skinnyties img {
+  width: 110px;
+  float: left;
+}
+
+.skinnyties a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.selection {
+  position: relative;
+  top: 45px;
+  left: 50px;
+  padding-left: 30px;
+  /*float: right;*/
+  /*position: relative;
+  bottom: 25px;
+  left: 25px;*/
+}
+.search {
+  position: absolute;
+  right: 77px;
+  padding: 5px 65px 5px 25px;
+  background-color: white;
+}
+
+.cart {
+  position: absolute;
+  right: 220px;
+  padding: 7px 25px;
+  background-color: white;
+}
+
+.ties {
+  clear: both;
+  padding-left: 140px;
+  background-color: #F4F4F4;
+}
+
+.ties img {
+  width: 68px;
+  padding-right:18px;
 }
