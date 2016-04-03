@@ -1,13 +1,13 @@
 .container {
-  width: 1175px;
+  width: 1200px;
   font-family: 'Open Sans', sans-serif;
   position: absolute;
 }
 
 header{
   width: 100%;
-  background-color: #ff6229;
-  padding: 5px;
+  background-color: #ff7542;
+  padding: 7px;
   font-size: 12px;
   /*position: absolute;*/
 }
@@ -26,10 +26,12 @@ header:before {
 header button{
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-  padding: 4px;
-  background-color: #c23400;
+  padding: 3px 8px;
+  background-color: #d15000;
   color:white;
   margin-left:90px;
+  border-radius: 3px;
+  border-style: none;
 }
 
 header a {
@@ -64,18 +66,32 @@ header a {
   bottom: 25px;
   left: 25px;*/
 }
+.signin a{
+  position: relative;
+  top: -14px;
+  right: -690px;
+  font-size: 10px;
+  color: #C0C0C0;
+
+}
 .search {
+  border: 1px solid #C0C0C0;
+  border-radius: 3px;
   position: absolute;
-  right: 77px;
+  right: 165px;
   padding: 5px 65px 5px 25px;
   background-color: white;
+  color: #C0C0C0;
 }
 
 .cart{
+  border: 1px solid #C0C0C0;
+  border-radius: 3px;
   position: absolute;
-  right: 220px;
-  padding: 7px 25px;
+  right: 310px;
+  padding: 7px 29px;
   background-color: white;
+
 }
 .cartsprite {
   background: url('assets/sprite@2x.png') no-repeat -90px -32px;
@@ -135,12 +151,33 @@ header a {
 }
 .otherties {
   margin: 10px 90px;
+  position: relative;
 }
 .otherties img{
   width: 290px;
   float: left;
   margin-right: 16px;
 }
+
+.bowties h3 {
+  position: absolute;
+  left: 190px;
+  top: -5px;
+}
+
+.pocket h3 {
+  position: absolute;
+  left: 506px;
+  top: -5px;
+  text-align: right;
+}
+
+.tiebars h3 {
+  position: absolute;
+  right: 135px;
+  top: -5px;
+}
+
 
 .ourstory {
   clear: both;
@@ -158,22 +195,25 @@ header a {
   font-weight: 100;
   text-align: center;
   margin-bottom: 5px;
+  padding-right: 90px;
 
 }
 
 .ourstory a {
+  padding-right: 90px;
   text-decoration: none;
   font-size: 14px;
-  color: blue;/*font-style: normal;*/
+  color: #52B8FF;/*font-style: normal;*/
 }
 
 .moredata {
   border-top: 1px solid lightgray;
   padding: 40px 90px;
+  letter-spacing: -0.5px;
 }
 
 .moredata h3 {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 900;
 }
 
@@ -182,7 +222,7 @@ header a {
   /*border: 1px solid red;*/
   float: left;
   margin-right: 35px;
-  padding-bottom: 45px;
+  padding-bottom: 35px;
 }
 .weekly img {
   width: 200px;
@@ -190,6 +230,10 @@ header a {
 .weekly a {
   margin: 10px;
   font-size: 12px;
+  letter-spacing: -1px;
+  color: #33A1FF;
+  text-decoration: none;
+  text-align: left;
 }
 
 .loop {
@@ -213,6 +257,26 @@ header a {
 .quarterly p {
   font-size: 12px;
 }
+.quarterly form {
+  width:75%;
+  border: 1px solid #e4e4e4;
+  border-radius: 3px;
+  font-size: 12px;
+  letter-spacing: -1px;
+  color: #aaa;
+  padding: 5px 20px 5px 5px;
+
+}
+.quarterly button {
+  background-color: #33A1FF;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid #33A1FF;
+  padding: 4px 5px;
+  margin-top: 10px;
+  letter-spacing: -1px;
+
+}
 
 .styleguide {
   width: 200px;
@@ -225,6 +289,11 @@ header a {
 }
 .styleguide p {
   font-size: 12px;
+  letter-spacing: -1px;
+}
+.styleguide a {
+  color: #33A1FF;
+  text-decoration: none;
 }
 
 footer {
@@ -235,6 +304,7 @@ footer {
   clear: both;
   font-size: 12px;
   background-color: #F4F4F4;
+  position: relative;
 }
 
 footer ul {
@@ -254,4 +324,41 @@ footer ul {
 
 .help {
   float: left;
+}
+
+.here {
+  margin-top: 30px;
+  margin-right: 150px;
+  border-radius: 4px;
+  width: 275px;
+  height: 115px;
+  float: right;
+  padding: 0px 5px;
+  background-color: #A2AFC0;
+  color: white;
+}
+.here h3 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.here ul {
+  font-size: 14px;
+  font-style: normal;
+  text-align: left;
+  padding-left: 0;
+}
+
+.here button {
+  background-color: #33A1FF;
+  color: white;
+  border-radius: 3px;
+  border: #33A1FF;
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 9px 10px;
+  position: absolute;
+  top: 100px;
+  right: 260px;
 }
