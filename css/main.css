@@ -1,5 +1,5 @@
 .container {
-  width: 1100px;
+  width: 1175px;
   font-family: 'Open Sans', sans-serif;
   position: absolute;
 }
@@ -89,7 +89,7 @@ header a {
 
 .ties {
   clear: both;
-  padding-left: 140px;
+  padding-left: 135px;
   background-color: #F4F4F4;
   position: relative;
   /*border-top: 1px solid green;*/
@@ -105,7 +105,7 @@ header a {
 
 .ties img {
   width: 68px;
-  padding-right:18px;
+  padding-right:19px;
 }
 /*.ties a {
   position: absolute;
@@ -127,10 +127,10 @@ header a {
 }
 
 .tielinks a {
-  /*text-align: center;*/
-  margin-right:10px;
-  margin-left: 17px;
-  padding-right: 10px;
+  font-size: 14px;
+  margin-right:13px;
+  margin-left: 18px;
+  padding-right: 13px;
   text-decoration: none;
 }
 .otherties {
@@ -145,6 +145,7 @@ header a {
 .ourstory {
   clear: both;
   padding-top: 40px;
+  margin-bottom: 65px;
 
   /*font-size: 28px;
   font-style: italic;
@@ -163,12 +164,25 @@ header a {
 .ourstory a {
   text-decoration: none;
   font-size: 14px;
-  color: blue;
-
-  /*font-style: normal;*/
+  color: blue;/*font-style: normal;*/
 }
+
+.moredata {
+  border-top: 1px solid lightgray;
+  padding: 40px 90px;
+}
+
+.moredata h3 {
+  font-size: 14px;
+  font-weight: 900;
+}
+
 .weekly {
+  width: 200px;
+  /*border: 1px solid red;*/
   float: left;
+  margin-right: 35px;
+  padding-bottom: 45px;
 }
 .weekly img {
   width: 200px;
@@ -179,25 +193,65 @@ header a {
 }
 
 .loop {
+  width: 200px;
+  /*border: 1px solid red;*/
   float: left;
+  margin-right: 35px;
+
 }
 .loop p {
   font-size: 12px;
 }
 
 .quarterly {
+  width: 200px;
+  /*border: 1px solid red;*/
   float: left;
+  margin-right: 35px;
+  padding-bottom: 25px;
 }
 .quarterly p {
   font-size: 12px;
 }
 
 .styleguide {
-  float; left:
+  width: 200px;
+  /*border: 1px solid red;*/
+  float: left;
+  margin-right: 35px;
 }
 .styleguide img {
   width: 200px;
 }
 .styleguide p {
   font-size: 12px;
+}
+
+footer {
+  padding: 2px 90px;
+  width: 1100px;
+  height: 200px;
+  border-top: 1px solid lightgray;
+  clear: both;
+  font-size: 12px;
+  background-color: #F4F4F4;
+}
+
+footer ul {
+  list-style: none;
+}
+.shop {
+  float: left;
+}
+
+.about {
+  float: left;
+}
+
+.style {
+  float: left;
+}
+
+.help {
+  float: left;
 }
